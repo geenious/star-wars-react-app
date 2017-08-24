@@ -3,9 +3,56 @@
 }
 
 .card{
-  margin: 5px;
+  margin: 1.5%;
+  flex-basis: 22%;
+  background-color: #ddd;
+  padding: 8px;
+}
+
+.card h5 {
+  color: #666;
+}
+
+.specs {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.specs p {
+  border-top: 1px solid #666;
+  padding: 5px 0 0 5px;
+  margin: 0;
 }
 
 .form{
   text-align: center;
+}
+
+.header {
+  background-color: #aaa;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.name-header {
+  background-color: #ddd;
+  width: 87%;
+  margin: 1.5% auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.card-rack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pilot-name {
+  margin-top: 10px;
 }
